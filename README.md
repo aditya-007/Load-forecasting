@@ -22,4 +22,6 @@ The following three models have been used with the details as follows:
 
 Incorporating excessive layers and hidden nodes can lead to overfitting, resulting in a model that excels on training data but struggles in real-world applications. Conversely, a model that is too simplistic may yield subpar predictions for both training and test data.
 ## Results
-To test the model's accuracy, the mean absolute percentage error (MAPE) and root mean square error (RMSE) will be used.
+To test the model's accuracy, the mean absolute percentage error (MAPE) and root mean square error (RMSE) will be used. Following graphs show the predicted vs actual trend on the test set.
+
+![LSTM1](https://github.com/user-attachments/assets/1d2dc9d7-638a-4712-96e2-d913551a92a8)
