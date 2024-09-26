@@ -24,4 +24,4 @@ Incorporating excessive layers and hidden nodes can lead to overfitting, resulti
 ## Results
 To test the model's accuracy, the mean absolute percentage error (MAPE) and root mean square error (RMSE) will be used. Following graphs show the predicted vs actual trend on the test set.
 
-![LSTM1](https://github.com/user-attachments/assets/1d2dc9d7-638a-4712-96e2-d913551a92a8)
+![LSTM3_test_result](https://github.com/user-attachments/assets/7159afdb-c8ea-440c-83ae-bafe570463fe)
