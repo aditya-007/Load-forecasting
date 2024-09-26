@@ -1,2 +1,23 @@
 # Load-forecasting
-Load forecasting with machine learning
+Load forecasting with machine learning.
+## Load data
+Load data have been taken from Electrical Reliability Council of Texas (ERCOT). The dataset consists of the following columns:
+    Date: Timestamp of the reading.
+    DryBulb: Dry bulb temperature (°C).
+    DewPnt: Dew point temperature (°C).
+    WetBulb: Wet bulb temperature (°C).
+    Humidity: Humidity (%).
+    ElecPrice: Electricity price ($/MWh).
+    Day: Day of the month.
+    Month: Month of the year.
+    Year: Year of the data.
+    Minutes: Time in minutes (since midnight).
+    SYSLoad: The system load (the target variable for prediction).
+## ML Model
+LSTM model has been used in this project. LSTM models such as the ones we’ll be using here are critical to load forecasting. 
+The following three models have been used with the details as follows:
+- LSTM1 (Simple Model): A single LSTM layer with 50 units.
+- LSTM2 (My Complex Model): Two LSTM layers with 100 and 50 units.
+- LSTM3 (Proposed Complex Model): Two LSTM layers with 128 and 64 units, dropout regularization, and a dense layer with ReLU activation.
+## Results
+To test the model's accuracy, the mean absolute percentage error (MAPE) and root mean square error (RMSE) will be used.
